@@ -1,0 +1,33 @@
+# ไฟล์ระบบ
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# ไฟล์/โฟลเดอร์ IDE
+.vscode/
+.idea/
+*.swp
+
+# Git
+.git/
+.gitignore
+
+# ไฟล์ที่ไม่ต้องการ
+*.DS_Store
+.env
+.env.*
+
+# ไฟล์ผลลัพธ์
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
+# Cache หรืองานที่ไม่ได้ใช้งานจริง
+*.ipynb_checkpoints
+data/
+tmp/
+test/
+output/
